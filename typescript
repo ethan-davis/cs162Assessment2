@@ -1,0 +1,364 @@
+Script started on Mon 19 Jul 2021 11:02:36 AM PDT
+ethan.davis@syccuxas01:~/CS162/assessments/assess2> exit[2Pfgjobs./a.out g++ assess2.cpp game.cpp -o a.outjobs[Kg++ assess2.cpp game.cpp -o a.out
+ethan.davis@syccuxas01:~/CS162/assessments/assess2> ./a.out 
+
+Welcome to Ethan's Video Game Catalog Program!
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 1
+
+Enter Game Title: Super Metroid
+Enter Platform: Super Nintendo
+Enter Genre: Action Platformer
+Enter Release Year (1970-2021): 1994
+Enter Rating (5.0 Scale): 4.8
+
+==Entry Saved!==
+Would you like to add another (y/n)? y
+
+Enter Game Title: Mario and Luigi: Superstar Saga
+Enter Platform: Gameboy Advance  ^[[D^[[D                    Boy Advance
+Enter Genre: A RPG
+Enter Release Year (1970-2021): 2003
+Enter Rating (5.0 Scale): 4.7
+
+==Entry Saved!==
+Would you like to add another (y/n)? y
+
+Enter Game Title: Fire Emblem  : Three Houses
+Enter Platform: Nintendo Switch
+Enter Genre: Tactical    s RPG
+Enter Release Year (1970-2021): 2019
+Enter Rating (5.0 Scale): 4.8
+
+==Entry Saved!==
+Would you like to add another (y/n)? y
+
+Enter Game Title: Pikmin
+Enter Platform: Gamecube^[[D            Nintendo Gamecube
+Enter Genre: Strategy
+Enter Release Year (1970-2021): 2001
+Enter Rating (5.0 Scale): 3.9
+
+==Entry Saved!==
+Would you like to add another (y/n)? y
+
+Enter Game Title: Star Tropics        Tropics
+Enter Platform: NES
+Enter Genre: Action/ADventure        dventure
+Enter Release Year (1970-2021): 1990
+Enter Rating (5.0 Scale): 4.1
+
+==Entry Saved!==
+Would you like to add another (y/n)? n
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 2
+
+---------------------------
+|    Showing All Games    |
+---------------------------
+
+=== Index 0 ===
+Title: Super Metroid
+Platform: Super Nintendo
+Genre: Action Platformer
+Release Year: 1994
+Rating: 4.8
+
+=== Index 1 ===
+Title: Mario and Luigi: Superstar Saga
+Platform: Game Boy Advance
+Genre: RPG
+Release Year: 2003
+Rating: 4.7
+
+=== Index 2 ===
+Title: Fire Emblem: Three Houses
+Platform: Nintendo Switch
+Genre: Tactics RPG
+Release Year: 2019
+Rating: 4.8
+
+=== Index 3 ===
+Title: Pikmin
+Platform: Nintendo Gamecube
+Genre: Strategy
+Release Year: 2001
+Rating: 3.9
+
+=== Index 4 ===
+Title: StarTropics
+Platform: NES
+Genre: Action/Adventure
+Release Year: 1990
+Rating: 4.1
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 4
+
+Enter a file name to create: collection.txt
+== Game collection saved to: collection.txt ==
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 6
+
+Goodbye!
+ethan.davis@syccuxas01:~/CS162/assessments/assess2> ./a.out 
+
+Welcome to Ethan's Video Game Catalog Program!
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 5
+
+Enter the file name to read in: collection.txt
+== Games loaded from collection.txt into collection! == 
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 2
+
+---------------------------
+|    Showing All Games    |
+---------------------------
+
+=== Index 0 ===
+Title: Super Metroid
+Platform: Super Nintendo
+Genre: Action Platformer
+Release Year: 1994
+Rating: 4.8
+
+=== Index 1 ===
+Title: Mario and Luigi: Superstar Saga
+Platform: Game Boy Advance
+Genre: RPG
+Release Year: 2003
+Rating: 4.7
+
+=== Index 2 ===
+Title: Fire Emblem: Three Houses
+Platform: Nintendo Switch
+Genre: Tactics RPG
+Release Year: 2019
+Rating: 4.8
+
+=== Index 3 ===
+Title: Pikmin
+Platform: Nintendo Gamecube
+Genre: Strategy
+Release Year: 2001
+Rating: 3.9
+
+=== Index 4 ===
+Title: StarTropics
+Platform: NES
+Genre: Action/Adventure
+Release Year: 1990
+Rating: 4.1
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 3
+
+Enter index to delete (0-4): 2
+Are you sure you want to delete Fire Emblem: Three Houses (y/n)? y
+Fire Emblem: Three Houses deleted from Catalog.
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 4 2
+
+---------------------------
+|    Showing All Games    |
+---------------------------
+
+=== Index 0 ===
+Title: Super Metroid
+Platform: Super Nintendo
+Genre: Action Platformer
+Release Year: 1994
+Rating: 4.8
+
+=== Index 1 ===
+Title: Mario and Luigi: Superstar Saga
+Platform: Game Boy Advance
+Genre: RPG
+Release Year: 2003
+Rating: 4.7
+
+=== Index 2 ===
+Title: Pikmin
+Platform: Nintendo Gamecube
+Genre: Strategy
+Release Year: 2001
+Rating: 3.9
+
+=== Index 3 ===
+Title: StarTropics
+Platform: NES
+Genre: Action/Adventure
+Release Year: 1990
+Rating: 4.1
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 4
+
+Enter a file name to create: collection.txt
+== Game collection saved to: collection.txt ==
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 6
+
+Goodbye!
+ethan.davis@syccuxas01:~/CS162/assessments/assess2> ./a.out 
+
+Welcome to Ethan's Video Game Catalog Program!
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 5
+
+Enter the file name to read in: collection.txt
+== Games loaded from collection.txt into collection! == 
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 2
+
+---------------------------
+|    Showing All Games    |
+---------------------------
+
+=== Index 0 ===
+Title: Super Metroid
+Platform: Super Nintendo
+Genre: Action Platformer
+Release Year: 1994
+Rating: 4.8
+
+=== Index 1 ===
+Title: Mario and Luigi: Superstar Saga
+Platform: Game Boy Advance
+Genre: RPG
+Release Year: 2003
+Rating: 4.7
+
+=== Index 2 ===
+Title: Pikmin
+Platform: Nintendo Gamecube
+Genre: Strategy
+Release Year: 2001
+Rating: 3.9
+
+=== Index 3 ===
+Title: StarTropics
+Platform: NES
+Genre: Action/Adventure
+Release Year: 1990
+Rating: 4.1
+
+---------------------------
+|        Main Menu        |
+---------------------------
+ 1) Add Game to Collection
+ 2) Show all Games
+ 3) Delete from Collection
+ 4) Write Collection to a File
+ 5) Add Games from a File
+ 6) Exit
+ Please Enter your Choice: 6
+
+Goodbye!
+ethan.davis@syccuxas01:~/CS162/assessments/assess2> exit
+exit
+
+Script done on Mon 19 Jul 2021 11:09:55 AM PDT
