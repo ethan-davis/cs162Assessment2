@@ -358,5 +358,6 @@ void readFile(Game aGame[], int& count)
 		aGame[count].setRating(tRating);
 		++count;
 	}
+	inFile.close();
 	cout << "== Games loaded from " << fileName << " into collection! == \n" << endl;
 }
