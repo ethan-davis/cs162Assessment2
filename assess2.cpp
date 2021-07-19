@@ -222,6 +222,12 @@ void Confirm(char& userChar)
  */
 void DisplayEntries(Game aGame[], int count)
 {
+	// Show message and return if collection is empty
+	if(count <= 0)
+	{
+		cout << "== No Games in Collection! ==\n" << endl;
+		return;
+	}
 	cout << "---------------------------\n";
 	cout << "|    Showing All Games    |\n";
 	cout << "---------------------------\n";
